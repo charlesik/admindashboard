@@ -1,14 +1,18 @@
 
 import './App.css'
 import AdminDashboard from './pages/AdminDashboard'
-
+import { Route, Routes } from 'react-router-dom';
+import Login from './pages/Login';
 
 function App() {
   
 
   return (
     <div>
-      <AdminDashboard/>
+      <Routes>
+        <Route path='/' element={<AdminDashboard/>}/>
+        <Route path='login' element={<Login/>}/>
+      </Routes>
     </div>
   )
 }

@@ -7,7 +7,7 @@ import ProjectList from '../ProjectList';
 
 function Dashboard() {
     return (
-        <div className=" text-white bg-[#141432] h-full">
+        <div className=" text-white bg-[#141432] ">
             <div className=" bg-[#1D1D42] h-[50px] flex justify-between px-5 pt-1 border-l-[#FFFFFF] border-l">
                 <p className='text-3xl font-bold'>Machi Konsult Staff Dashboard</p>
                 <div className='flex justify-around w-[200px]'>
