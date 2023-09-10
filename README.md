@@ -1,3 +1,7 @@
+#Dashboard Interface With CRUD Functionality
+The Login user interface can be found in the /login route
+All the create, update and delete functions were implemented on the dashboard. Thanks
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
